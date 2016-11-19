@@ -7,29 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		521FEECF1DDF99590078A021 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521FEECE1DDF99590078A021 /* TabBarController.swift */; };
+		521FEED11DDF99BA0078A021 /* CrayonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521FEED01DDF99BA0078A021 /* CrayonViewController.swift */; };
+		521FEED31DDF9E2F0078A021 /* CrayonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521FEED21DDF9E2F0078A021 /* CrayonManager.swift */; };
 		527053AD1DA69E7900F5DAB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527053AC1DA69E7900F5DAB5 /* AppDelegate.swift */; };
-		527053AF1DA69E7900F5DAB5 /* Crayon View Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527053AE1DA69E7900F5DAB5 /* Crayon View Controller.swift */; };
 		527053B21DA69E7900F5DAB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527053B01DA69E7900F5DAB5 /* Main.storyboard */; };
 		527053B41DA69E7900F5DAB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527053B31DA69E7900F5DAB5 /* Assets.xcassets */; };
 		527053B71DA69E7900F5DAB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527053B51DA69E7900F5DAB5 /* LaunchScreen.storyboard */; };
-		527053BF1DA6A0DE00F5DAB5 /* Color Table View Controller Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527053BE1DA6A0DE00F5DAB5 /* Color Table View Controller Scene.swift */; };
-		527053C11DA6A13500F5DAB5 /* Tab Bar Controller Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527053C01DA6A13500F5DAB5 /* Tab Bar Controller Scene.swift */; };
 		527053C31DA6A1F000F5DAB5 /* CrayonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527053C21DA6A1F000F5DAB5 /* CrayonData.swift */; };
 		527053C51DA6A21C00F5DAB5 /* Crayon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527053C41DA6A21C00F5DAB5 /* Crayon.swift */; };
+		5286AD4B1DD24E0400636F17 /* ColorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5286AD4A1DD24E0400636F17 /* ColorTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		521FEECE1DDF99590078A021 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		521FEED01DDF99BA0078A021 /* CrayonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrayonViewController.swift; sourceTree = "<group>"; };
+		521FEED21DDF9E2F0078A021 /* CrayonManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrayonManager.swift; sourceTree = "<group>"; };
 		527053A91DA69E7900F5DAB5 /* AC3.2Unit2FinalAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AC3.2Unit2FinalAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		527053AC1DA69E7900F5DAB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		527053AE1DA69E7900F5DAB5 /* Crayon View Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Crayon View Controller.swift"; sourceTree = "<group>"; };
 		527053B11DA69E7900F5DAB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		527053B31DA69E7900F5DAB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		527053B31DA69E7900F5DAB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = AC3.2Unit2FinalAssessment/Assets.xcassets; sourceTree = "<group>"; };
 		527053B61DA69E7900F5DAB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		527053B81DA69E7900F5DAB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		527053BE1DA6A0DE00F5DAB5 /* Color Table View Controller Scene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color Table View Controller Scene.swift"; sourceTree = "<group>"; };
-		527053C01DA6A13500F5DAB5 /* Tab Bar Controller Scene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Tab Bar Controller Scene.swift"; sourceTree = "<group>"; };
+		527053B81DA69E7900F5DAB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = AC3.2Unit2FinalAssessment/Info.plist; sourceTree = "<group>"; };
 		527053C21DA6A1F000F5DAB5 /* CrayonData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrayonData.swift; sourceTree = "<group>"; };
 		527053C41DA6A21C00F5DAB5 /* Crayon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crayon.swift; sourceTree = "<group>"; };
+		5286AD4A1DD24E0400636F17 /* ColorTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorTableViewController.swift; path = ../ColorTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,11 +45,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5209F8041DDF8DB700AA308D /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				5286AD4A1DD24E0400636F17 /* ColorTableViewController.swift */,
+				521FEECE1DDF99590078A021 /* TabBarController.swift */,
+				521FEED01DDF99BA0078A021 /* CrayonViewController.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		5209F8051DDF8DCB00AA308D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				527053B01DA69E7900F5DAB5 /* Main.storyboard */,
+				527053B51DA69E7900F5DAB5 /* LaunchScreen.storyboard */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		5209F8061DDF8DEA00AA308D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				521FEED21DDF9E2F0078A021 /* CrayonManager.swift */,
+				527053C21DA6A1F000F5DAB5 /* CrayonData.swift */,
+				527053C41DA6A21C00F5DAB5 /* Crayon.swift */,
+				527053AC1DA69E7900F5DAB5 /* AppDelegate.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
 		527053A01DA69E7900F5DAB5 = {
 			isa = PBXGroup;
 			children = (
 				527053AB1DA69E7900F5DAB5 /* AC3.2Unit2FinalAssessment */,
 				527053AA1DA69E7900F5DAB5 /* Products */,
+				527053B81DA69E7900F5DAB5 /* Info.plist */,
+				527053B31DA69E7900F5DAB5 /* Assets.xcassets */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,16 +96,9 @@
 		527053AB1DA69E7900F5DAB5 /* AC3.2Unit2FinalAssessment */ = {
 			isa = PBXGroup;
 			children = (
-				527053AC1DA69E7900F5DAB5 /* AppDelegate.swift */,
-				527053AE1DA69E7900F5DAB5 /* Crayon View Controller.swift */,
-				527053BE1DA6A0DE00F5DAB5 /* Color Table View Controller Scene.swift */,
-				527053C01DA6A13500F5DAB5 /* Tab Bar Controller Scene.swift */,
-				527053B01DA69E7900F5DAB5 /* Main.storyboard */,
-				527053B31DA69E7900F5DAB5 /* Assets.xcassets */,
-				527053B51DA69E7900F5DAB5 /* LaunchScreen.storyboard */,
-				527053B81DA69E7900F5DAB5 /* Info.plist */,
-				527053C21DA6A1F000F5DAB5 /* CrayonData.swift */,
-				527053C41DA6A21C00F5DAB5 /* Crayon.swift */,
+				5209F8041DDF8DB700AA308D /* controller */,
+				5209F8051DDF8DCB00AA308D /* view */,
+				5209F8061DDF8DEA00AA308D /* model */,
 			);
 			path = AC3.2Unit2FinalAssessment;
 			sourceTree = "<group>";
@@ -148,12 +175,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				527053BF1DA6A0DE00F5DAB5 /* Color Table View Controller Scene.swift in Sources */,
-				527053AF1DA69E7900F5DAB5 /* Crayon View Controller.swift in Sources */,
+				521FEED11DDF99BA0078A021 /* CrayonViewController.swift in Sources */,
+				521FEED31DDF9E2F0078A021 /* CrayonManager.swift in Sources */,
 				527053AD1DA69E7900F5DAB5 /* AppDelegate.swift in Sources */,
 				527053C51DA6A21C00F5DAB5 /* Crayon.swift in Sources */,
+				521FEECF1DDF99590078A021 /* TabBarController.swift in Sources */,
+				5286AD4B1DD24E0400636F17 /* ColorTableViewController.swift in Sources */,
 				527053C31DA6A1F000F5DAB5 /* CrayonData.swift in Sources */,
-				527053C11DA6A13500F5DAB5 /* Tab Bar Controller Scene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +343,7 @@
 				527053BD1DA69E7900F5DAB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

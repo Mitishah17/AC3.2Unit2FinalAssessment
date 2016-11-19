@@ -13,17 +13,22 @@ class Crayon {
     var red: Double
     var green: Double
     var blue: Double
+    var hex: String
+    var rgb: String
     
-    init(name: String, red: Double, green: Double, blue: Double) {
+    init(name: String, red: Double, green: Double, blue: Double, hex: String, rgb: String) {
         self.name = name
         self.red = red
         self.green = green
         self.blue = blue
+        self.hex = hex
+        self.rgb = rgb
     }
     
     convenience init?(fromDict:[String:Any]) {
         if let name = fromDict["name"] as? String,
-            let hex = fromDict["hex"] as? String {
+            let hex = fromDict["hex"] as? String,
+            let rgb = fromDict["rgb"] as? String {
             
             var hexComponents = [String]()
             
@@ -46,7 +51,7 @@ class Crayon {
             }
             
             if let r = Double("0x"+hexComponents[0]), let g = Double("0x"+hexComponents[1]), let b = Double("0x"+hexComponents[2]) {
-                self.init(name: name, red: r/255.0, green: g/255.0, blue: b/255.0)
+                self.init(name: name, red: r/255.0, green: g/255.0, blue: b/255.0, hex: hex, rgb: rgb)
             }
             else {
                 return nil
@@ -57,3 +62,4 @@ class Crayon {
         }
     }
 }
+
