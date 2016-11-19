@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TabBarController: UIViewController, UITextFieldDelegate {
+class TabBarController: UIViewController {
     
     // Mark: Properties
     @IBOutlet weak var sliderOutlet: UISlider!
@@ -24,10 +24,10 @@ class TabBarController: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        self.view.backgroundColor = .blue
-        labelOutlet.backgroundColor = .red
 //        
+//        self.view.backgroundColor = .blue
+//        labelOutlet.backgroundColor = .red
+//
 ////                textFieldOutlet.delegate = self
 //                labelOutlet.text = "Default Text"
 //                sliderOutlet.value = 0
@@ -75,22 +75,22 @@ class TabBarController: UIViewController, UITextFieldDelegate {
         //            return true
         //
         //        }
-        //
-        func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-            if let textFieldText = textField.text, let float = Float(textFieldText), let double = Double(textFieldText) {
-                    
-                    
-                    sliderOutlet.value = float
-                    stepperOutlet.value = double
-                    labelOutlet.text = textFieldText
-                   
-                }
-                
-                  return true
-                
-                
-            }
-            
+//        //
+//        func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+//            if let textFieldText = textField.text, let float = Float(textFieldText), let double = Double(textFieldText) {
+//                    
+//                    
+//                    sliderOutlet.value = float
+//                    stepperOutlet.value = double
+//                    labelOutlet.text = textFieldText
+//                   
+//                }
+//                
+//                  return true
+//                
+//                
+//            }
+//            
     
         }
     
